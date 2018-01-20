@@ -24,12 +24,12 @@ app.config(function($routeProvider) {
         templateUrl : "test.html"
     })
     .when("/home", {
-        templateUrl : "htmlPages/home.html"
+        templateUrl : "home.html"
     })
     .when("/office", {
-        templateUrl : "htmlPages/Office.html"
+        templateUrl : "Office.html"
     })
     .when("/test", {
-        templateUrl : "htmlPages/default.html"  });
+        templateUrl : "default.html"  });
     
 });
